@@ -20,3 +20,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# 個人ファイル
+src/components/HelloWorld.vue
+src/components/LikeNumber.vue
