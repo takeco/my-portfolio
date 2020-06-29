@@ -28,7 +28,7 @@
           </li>
         </ul>
         <ul v-else>
-          <li>買うものを入力</li>
+          <li><span>買うものを入力</span></li>
         </ul>
       </section>
     </div>
@@ -84,7 +84,8 @@ export default {
   };
 </script>
 
-<style>
+<style scoped>
+
 /* width 400px未満 */
 
 .body{
@@ -138,7 +139,6 @@ section>ul>li{
 section>ul>li>input:first-of-type{
   grid-area: checkbox;
   height: 40px;
-  
 }
 section>ul>li>span:first-of-type{
   padding-left: 5px;
