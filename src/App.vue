@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div :class="$style.app">
     <TodoList></TodoList>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style>
+<style module>
 
 .app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

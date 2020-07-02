@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div :class="$style.body">
     <header>
       <h1>Todolist</h1>
       <nav>
@@ -13,10 +13,10 @@
     </form>
     <section>
       <ul v-if="todos.length">
-        <li v-for="(todo, index) in todos" :key="todo">
+        <li v-for="(todo, index) in todos" :key="todo.title">
           <input type="checkbox" v-model="todo.isDone" />
           <span :class="{done: todo.isDone}">{{todo.title}}</span>
-          <img @click="deleteTodo(index)" src="../../public/img/dustBox.svg" alt id="dustBox" />
+          <img @click="deleteTodo(index)" src="../../public/img/dustBox.svg" :class="$style.dustBoxImg" />
           <form @submit.prevent>
             <input v-show="todo.editor" type="text" v-model="todo.title" />
             <button @click="todo.editor =!todo.editor">
@@ -87,7 +87,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style module>
 /* width 400px未満 */
 
 .body {
@@ -97,13 +97,13 @@ export default {
   justify-content: center;
   padding: 20px;
 }
-header {
+.body > header {
   background-color: rgba(255, 255, 255, 0.8);
 }
-header > h1 {
+.body > header > h1 {
   text-align: center;
 }
-header > nav {
+.body > header > nav {
   text-align: right;
 }
 .body > form {
@@ -114,22 +114,23 @@ header > nav {
   width: 60%;
   height: 20px;
 }
-section {
+.body > section {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-#dustBox {
-  height: 20px;
+.dustBoxImg {
+  width: 20px;
+  margin: 0 auto;
   cursor: pointer;
 }
-section > ul {
+.body > section > ul {
   list-style: none;
   max-width: 600px;
   word-wrap: break-word;
   width: 80%;
   margin: 0 auto;
 }
-section > ul > li {
+.body > section > ul > li {
   border-bottom: solid 1px #bbb;
   padding: 10px 0;
   display: grid;
@@ -139,28 +140,28 @@ section > ul > li {
     "    .    memo        .   " auto
     / 50px 1fr 50px;
 }
-section > ul > li > input:first-of-type {
+.body > section > ul > li > input:first-of-type {
   grid-area: checkbox;
   height: 40px;
 }
-section > ul > li > span:first-of-type {
+.body > section > ul > li > span:first-of-type {
   padding-left: 5px;
   grid-area: todoName;
   word-wrap: anywhere;
   font-weight: 600;
 }
-section > ul > li > img:first-of-type {
+.body > section > ul > li > img:first-of-type {
   grid-area: dustBox;
 }
-section > ul > li > form {
+.body > section > ul > li > form {
   grid-area: edit;
   text-align: right;
 }
-section > ul > li > textarea {
+.body > section > ul > li > textarea {
   grid-area: memo;
   overflow-wrap: anywhere;
 }
-section > ul > li > form > input {
+.body > section > ul > li > form > input {
   line-height: 20px;
 }
 
@@ -171,11 +172,11 @@ section > ul > li > form > input {
 
 /* width 800px未満 */
 @media (min-width: 400px) {
-  header {
+  .body > header {
     position: relative;
     background-color: rgba(255, 255, 255, 0.8);
   }
-  header > nav {
+  .body > header > nav {
     position: absolute;
     text-align: right;
     right: 10px;
