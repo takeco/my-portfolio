@@ -1,6 +1,7 @@
 # Portfolio サイトの作成
 
-![スクリーンショット](https://i.imgur.com/heEJKP5.png) ##　 vue cli にて作成
+![スクリーンショット](https://i.imgur.com/heEJKP5.png) 
+## vue cli にて作成
 
 - flexbox を用いて、レスポンシブ対応を行う
 - 子コンポーネントに以前制作した todo リストを追加
