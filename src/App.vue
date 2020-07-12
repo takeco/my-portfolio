@@ -5,23 +5,23 @@
 </template>
 
 <script>
-import MainContents from './components/MainContents'
+import MainContents from "./components/MainContents";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     MainContents
   }
-}
+};
 </script>
 
 <style module>
-
 .app {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 </style>

@@ -178,8 +178,8 @@
               </li>
             </ul>
             <p>
-              <a href="https//demo.deothemes.com/meridia" target="blank">トレース元</a>
-              <a href="https://github.com/takeco/trace-site">
+              <a href="https://takeco.github.io/trace-site/" target="blank">トレース元</a>
+              <a href="https://github.com/takeco/trace-site" target="blank">
                 <img src="../../public/img/github.svg" alt />
               </a>
             </p>
