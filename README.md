@@ -1,5 +1,5 @@
 # Portfolioサイトの作成
-[スクリーンショット](https://i.imgur.com/heEJKP5.png)
+![スクリーンショット](https://i.imgur.com/heEJKP5.png)
 ##　vue cliにて作成
 
 * flexboxを用いて、レスポンシブ対応を行う
