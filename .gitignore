@@ -23,4 +23,3 @@ pnpm-debug.log*
 
 # 個人ファイル
 src/components/HelloWorld.vue
-src/components/LikeNumber.vue

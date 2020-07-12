@@ -1,16 +1,16 @@
 <template>
   <div :class="$style.app">
-    <TodoList></TodoList>
+    <MainContents></MainContents>
   </div>
 </template>
 
 <script>
-import TodoList from './components/TodoList'
+import MainContents from './components/MainContents'
 
 export default {
   name: 'App',
   components: {
-    TodoList
+    MainContents
   }
 }
 </script>
@@ -18,10 +18,10 @@ export default {
 <style module>
 
 .app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  background-color: antiquewhite;
+  background-color: #E5E5E5;
 }
 </style>

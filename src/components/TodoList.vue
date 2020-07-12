@@ -15,7 +15,9 @@
       <ul v-if="todos.length">
         <li v-for="(todo, index) in todos" :key="todo.title">
           <input type="checkbox" v-model="todo.isDone" />
-          <span :class="{done: todo.isDone}">{{todo.title}}</span>
+
+          <span :class="{[$style.done]: todo.isDone}">{{todo.title}}</span>
+
           <img @click="deleteTodo(index)" src="../../public/img/dustBox.svg" :class="$style.dustBoxImg" />
           <form @submit.prevent>
             <input v-show="todo.editor" type="text" v-model="todo.title" />
@@ -43,7 +45,8 @@ export default {
     return {
       newTodo: "",
       memo: "",
-      todos: []
+      todos: [
+        ]
     };
   },
   watch: {
@@ -102,6 +105,7 @@ export default {
 }
 .body > header > h1 {
   text-align: center;
+  padding: 5px 0 35px 0;
 }
 .body > header > nav {
   text-align: right;
@@ -165,7 +169,7 @@ export default {
   line-height: 20px;
 }
 
-.done {
+.body > section > ul > li > span.done {
   text-decoration: line-through;
   color: #bbb;
 }
@@ -184,11 +188,11 @@ export default {
   }
 }
 
-/* width 800px以上 */
-@media (min-width: 800px) {
+/* width 850px以上 */
+@media (min-width: 850px) {
   .body {
-    width: 800px;
-    margin: auto;
+    width: 760px;
+    margin: 0 auto;
   }
 }
 </style>
