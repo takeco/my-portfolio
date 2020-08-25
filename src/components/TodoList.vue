@@ -4,32 +4,45 @@
       <h1>Todolist</h1>
       <nav>
         <button @click="purge">完了を削除</button>
-        <p>未完了({{remaining.length}})</p>
+        <p>未完了({{ remaining.length }})</p>
       </nav>
     </header>
     <form @submit.prevent="addTodo">
-      <input v-model="newTodo" type="text" placeholder="  入力       １５文字まで" maxlength="20" />
+      <input
+        v-model="newTodo"
+        type="text"
+        placeholder="  入力       １５文字まで"
+        maxlength="20"
+      />
       <input type="submit" value="追加" />
     </form>
     <section>
-      <ul v-if="todos.length">
+      <draggable element="ul" v-if="todos.length">
         <li v-for="(todo, index) in todos" :key="todo.title">
           <input type="checkbox" v-model="todo.isDone" />
 
-          <span :class="{[$style.done]: todo.isDone}">{{todo.title}}</span>
+          <span :class="{[$style.done]: todo.isDone}">{{ todo.title }}</span>
 
-          <img @click="deleteTodo(index)" src="../../public/img/dustBox.svg" :class="$style.dustBoxImg" />
+          <img
+            @click="deleteTodo(index)"
+            src="../../public/img/dustBox.svg"
+            :class="$style.dustBoxImg"
+          />
           <form @submit.prevent>
             <input v-show="todo.editor" type="text" v-model="todo.title" />
-            <button @click="todo.editor =!todo.editor">
+            <button @click="todo.editor = !todo.editor">
               <span v-show="!todo.editor">編集</span>
               <span v-show="todo.editor">完了</span>
             </button>
           </form>
           <p>memo</p>
-          <textarea type="text" placeholder="メモ" v-model="todo.memo"></textarea>
+          <textarea
+            type="text"
+            placeholder="メモ"
+            v-model="todo.memo"
+          ></textarea>
         </li>
-      </ul>
+      </draggable>
       <ul v-else>
         <li>
           <span>買うものを入力</span>
@@ -40,13 +53,14 @@
 </template>
 
 <script>
+import draggable from "vuedraggable";
+
 export default {
   data() {
     return {
       newTodo: "",
       memo: "",
-      todos: [
-        ]
+      todos: [],
     };
   },
   watch: {
@@ -54,8 +68,8 @@ export default {
       handler() {
         localStorage.setItem("todos", JSON.stringify(this.todos));
       },
-      deep: true
-    }
+      deep: true,
+    },
   },
   mounted() {
     this.todos = JSON.parse(localStorage.getItem("todos")) || [];
@@ -66,7 +80,7 @@ export default {
         title: this.newTodo,
         isDone: false,
         editor: false,
-        memo: this.memo
+        memo: this.memo,
       };
       this.todos.push(item);
       this.newTodo = "";
@@ -78,15 +92,18 @@ export default {
       if (confirm("完了したものを削除します")) {
         this.todos = this.remaining;
       }
-    }
+    },
   },
   computed: {
     remaining() {
       return this.todos.filter(function(todo) {
         return !todo.isDone;
       });
-    }
-  }
+    },
+  },
+  components: {
+    draggable,
+  },
 };
 </script>
 

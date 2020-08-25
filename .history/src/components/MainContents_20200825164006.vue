@@ -31,20 +31,20 @@
         <li>
           <h2>History</h2>
           <p>
-            <br />幼少より、物を作ることが好きで、ラジオなど電子工作して遊んでいました。
-            中学校ではロボットコンテストに出場。高校時より、web制作、シーケンス制御、など情報分野を学びました。
-            <br />その後、大学校の制御技術科で1年間、cadのよる部品作成から、c言語によるマイコン制御まで学びました。
-            <br />
-            <br />大学校で制作する中、”ものづくり”への幅広い関心が生まれ、更に制作することへの意識を学ぶため美術系大学に進学、修士課程まで修了しました。大学では新たに考え、ものを生み出すことに注視し学んできました。ものづくりに対しての対応力、発想力には自信があります。
-            <br /><br />
-            <br />大学時から続けてきた美術制作では、
-            <br />企画・広報・制作・展示まで行い、Photoshop・Illustratorを使った企画書・広告物などの作成。Premiereによる展示動画の作成。観覧者の視点誘導を意識した展示の空間構成まで、制作に関わる物事を一貫して行ってきました。また、日本各地・韓国・デンマークで、企業・ボランティア・地域住民の方々と交流を図り、地域交流、活性化の一部を担えるよう取り組んできました。
-            <br /><br />その後、美術制作活動で重視した、身体と近い距離で得る体感への可能性や、自然の魅力の顕在化に興味をいだき造園業へ従事。
-            <br />
-            <br />造園業では、庭園とは、自然のもつ魅力・変移を写し取ることと考え、文化・空間造形の技術を学びつつ、植物に対しての知識を深めました。
-            <br />業務では、お客様と近い距離で仕事をさせていただき、顧客指向での考え方を学んでいます。また、日々の作業では個人の裁量に委ねられる部分が多く、都度優先順位を定め、効率化を重視し自身の責任を胸においた自活的な仕事を行っています。
-            <br /><br />
-            <br />今年より、スキルアップ、又仕事の幅を広げるためにwebコーディングの学習を行っています。プログラミングという、自身で制作したもののレスポンスが直ぐに受け取れるツールは、制作することへの楽しさをとても感じてます。これまで得た”ものづくり”での知見を活かし、成果を創り出せていけたらと強く感じております。
+           幼少より、物を作ることが好きで、ラジオなど電子工作して遊んでいました。
+中学校ではロボットコンテストに出場。高校時より、web制作、シーケンス制御、など情報分野を学びました。その後、大学校の制御技術科で1年間、cadのよる部品作成から、c言語によるマイコン制御まで学びました。
+
+大学校で制作する中、”ものづくり”への幅広い関心が生まれ、更に制作することへの意識を学ぶため美術系大学に進学、修士課程まで修了しました。大学では新たに考え、ものを生み出すことに注視し学んできました。ものづくりに対しての対応力、発想力には自信があります。
+
+大学時から続けてきた美術制作では、
+企画・広報・制作・展示まで行い、Photoshop・Illustratorを使った企画書・広告物などの作成。Premiereによる展示動画の作成。観覧者の視点誘導を意識した展示の空間構成まで、制作に関わる物事を一貫して行ってきました。また、日本各地・韓国・デンマークで、企業・ボランティア・地域住民の方々と交流を図り、地域交流、活性化の一部を担えるよう取り組んできました。
+
+その後、美術制作活動で重視した、身体と近い距離で得る体感への可能性や、自然の魅力の顕在化に興味をいだき造園業へ従事。
+
+造園業では、庭園とは、自然のもつ魅力・変移を写し取ることと考え、文化・空間造形の技術を学びつつ、植物に対しての知識を深めました。業務では、お客様と近い距離で仕事をさせていただき、顧客指向での考え方を学んでいます。また、日々の作業では個人の裁量に委ねられる部分が多く、都度優先順位を定め、効率化を重視し自身の責任を胸においた自活的な仕事を行っています。
+
+今年より、スキルアップ、又仕事の幅を広げるためにwebコーディングの学習を行っています。プログラミングという、自身で制作したもののレスポンスが直ぐに受け取れるツールは、制作することへの楽しさをとても感じてます。これまで得た”ものづくり”での知見を活かし、成果を創り出せていけたらと強く感じております。
+
             <br />
             <br />
           </p>
@@ -59,8 +59,7 @@
             <br />
             <br />今後IT業界に関わっていく個人の課題として以下のようなことを考えます。
             <br />
-            <br />＜アート＞
-            <br />地域性アートワークにおいて、”体感すること”
+            <br />＜アート＞ <br />地域性アートワークにおいて、”体感すること”
             はその場所と人とを繋ぐ重要な要素です。
             体感をより密なものにするため、鑑賞を手助けするコンテンツ、もしくは
             ”体感” が得られるようなITとの関わりを考えます。
@@ -76,14 +75,12 @@
         <li>
           <h2>職歴</h2>
           <p>
-            <br />造園業
-            <br />2018-01 - 2020-06
+            <br />造園業 <br />2018-01 - 2020-06
             <br />
             <br />
           </p>
           <p>
-            <br />フリーランス [美術制作]
-            <br />2016-01 - 2017-12
+            <br />フリーランス [美術制作] <br />2016-01 - 2017-12
             <br />
             <br />
           </p>
@@ -141,11 +138,14 @@
             <h4>vue.jsでtodoアプリを制作しました。</h4>
             <p>
               ・編集機能とメモ要素を設け、dataはlocal
-              storageに保存しています。
-              <br />・Vue.Draggableを用いてリストの並び替えを実装しました。
+              storageに保存しています。<br />
+              ・Vue.Draggableを用いてリストの並び替えを実装しました。
             </p>
             <p>
-              <a href="https://github.com/takeco/my-portfolio/tree/todolist" target="blank">
+              <a
+                href="https://github.com/takeco/my-portfolio/tree/todolist"
+                target="blank"
+              >
                 <img src="../../public/img/github.svg" alt />
               </a>
             </p>
@@ -153,7 +153,9 @@
           <TodoList></TodoList>
           <div>
             <h3>JavaScriptでtodoアプリを制作しました。</h3>
-            <p>・ゴミ箱フォルダを実装し、サイドボタンで画面が切り替わるようにしています。</p>
+            <p>
+              ・ゴミ箱フォルダを実装し、サイドボタンで画面が切り替わるようにしています。
+            </p>
             <ul>
               <li>
                 <img src="../../public/img/jstodoapp1.png" alt />
@@ -163,8 +165,15 @@
               </li>
             </ul>
             <p>
-              <a href="https://takeco.github.io/js-todoApplication/" target="blank">サイトリンク</a>
-              <a href="https://github.com/takeco/js-todoApplication" target="blank">
+              <a
+                href="https://takeco.github.io/js-todoApplication/"
+                target="blank"
+                >サイトリンク</a
+              >
+              <a
+                href="https://github.com/takeco/js-todoApplication"
+                target="blank"
+              >
                 <img src="../../public/img/github.svg" alt />
               </a>
             </p>
@@ -181,7 +190,9 @@
               </li>
             </ul>
             <p>
-              <a href="https://takeco.github.io/trace-site/" target="blank">トレース元</a>
+              <a href="https://takeco.github.io/trace-site/" target="blank"
+                >トレース元</a
+              >
               <a href="https://github.com/takeco/trace-site" target="blank">
                 <img src="../../public/img/github.svg" alt />
               </a>
@@ -192,14 +203,20 @@
             <ul>
               <li>
                 <a href="https://takecocc.work/work/ube/" target="blank">
-                  <img src="../../public/img/tree_of_ube_1_Copyright_Nobuo_Shimose.jpg" alt />
+                  <img
+                    src="../../public/img/tree_of_ube_1_Copyright_Nobuo_Shimose.jpg"
+                    alt
+                  />
                   <p>宇部の木 tree of ube</p>
                 </a>
                 <p>in UBE Biennale</p>
               </li>
               <li>
                 <a href="https://takecocc.work/work/shodoshima/" target="blank">
-                  <img src="../../public/img/tree_of_shodosima_Copyright_Chukyo_Ozawa_-7.jpg" alt />
+                  <img
+                    src="../../public/img/tree_of_shodosima_Copyright_Chukyo_Ozawa_-7.jpg"
+                    alt
+                  />
                   <p>小豆島の木 tree of shodosima</p>
                 </a>
                 <p>in Setouchi Triennale</p>
@@ -220,10 +237,9 @@
             </ul>
             <p>
               <br />art workのportfoliosite
-              <a
-                href="https://takecocc.work/"
-                target="blank"
-              >https://takecocc.work/</a>
+              <a href="https://takecocc.work/" target="blank"
+                >https://takecocc.work/</a
+              >
             </p>
           </div>
         </li>
