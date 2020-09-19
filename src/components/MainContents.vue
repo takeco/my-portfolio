@@ -149,24 +149,38 @@
         <li>
           <h2>ポートフォリオ・作品</h2>
           <div>
-            <h3>vue.jsでポートフォリオサイト・todoアプリを制作しました。</h3>
-
+            <h3>
+              ポートフォリオサイト・todoアプリ
+              <span>
+                <a href="https://github.com/takeco/my-portfolio/tree/todolist" target="blank">
+                  <img src="../../public/img/github.svg" alt />
+                </a>
+              </span>
+            </h3>
             <p>
-              ・編集機能とメモ要素を設け、dataはlocal
+              ・vue CLI ・単一ファイルコンポーネントにて作成
+              <br />・編集機能とメモ要素を設け、dataはlocal
               storageに保存しています。
               <br />・Vue.Draggableを用いてリストの並び替えを実装しました。
               <br />
             </p>
-            <p>
-              <a href="https://github.com/takeco/my-portfolio/tree/todolist" target="blank">
-                <img src="../../public/img/github.svg" alt />
-              </a>
-            </p>
           </div>
           <TodoList></TodoList>
           <div>
-            <h3>JavaScriptでtodoアプリを制作しました。</h3>
-            <p>・ゴミ箱フォルダを実装し、サイドボタンで画面が切り替わるようにしています。</p>
+            <h3>
+              todoアプリ
+              <span>
+                <a href="https://github.com/takeco/js-todoApplication" target="blank">
+                  <img src="../../public/img/github.svg" alt />
+                </a>
+                <a href="https://takeco.github.io/js-todoApplication/" target="blank">サイトリンク</a>
+              </span>
+            </h3>
+            <p>
+              ・JavaScript / css/ htmlで作成
+              <br />・flexboxを用いレスポンシブ対応
+              <br />・ゴミ箱フォルダを実装し、サイドボタンで画面が切り替わるようにしています。
+            </p>
             <ul>
               <li>
                 <img src="../../public/img/jstodoapp1.png" alt />
@@ -175,16 +189,23 @@
                 <img src="../../public/img/jstodoapp2.png" alt />
               </li>
             </ul>
-            <p>
-              <a href="https://takeco.github.io/js-todoApplication/" target="blank">サイトリンク</a>
-              <a href="https://github.com/takeco/js-todoApplication" target="blank">
-                <img src="../../public/img/github.svg" alt />
-              </a>
-            </p>
           </div>
           <div>
-            <h3>サイト模写</h3>
-            <p>html css を用いてWordPressデモサイトの模写を行いました。</p>
+            <h3>
+              サイト模写
+              <span>
+                <a href="https://github.com/takeco/trace-site" target="blank">
+                  <img src="../../public/img/github.svg" alt />
+                </a>
+              </span>
+            </h3>
+            <p>
+              ・html / css を用いて
+              <a
+                href="https://takeco.github.io/trace-site/"
+                target="blank"
+              >WordPressデモサイト</a>の模写を行いました。
+            </p>
             <ul>
               <li>
                 <img src="../../public/img/trace1.jpg" alt />
@@ -193,12 +214,6 @@
                 <img src="../../public/img/trace2.jpg" alt />
               </li>
             </ul>
-            <p>
-              <a href="https://takeco.github.io/trace-site/" target="blank">トレース元</a>
-              <a href="https://github.com/takeco/trace-site" target="blank">
-                <img src="../../public/img/github.svg" alt />
-              </a>
-            </p>
           </div>
           <div>
             <h3>art work</h3>
@@ -274,7 +289,7 @@ h3 {
   font-size: 15px;
 }
 .body a {
-  color: #000;
+   color: #2c3e50;
 }
 .body > div > img {
   width: 100%;
@@ -322,16 +337,35 @@ h3 {
 .body > section > ul > li:nth-of-type(4) > div > ul > li > img {
   height: 50px;
 }
-.body > section > ul > li > div > p > a {
-  padding-left: 20px;
+.body > section > ul > li:nth-of-type(5) > div {
+  margin: 15px 0;
 }
-/* .body > section > ul > li:nth-of-type(5) > div:last-child > p:last-child {
+.body > section > ul > li:nth-of-type(5) > div:nth-of-type(1),
+.body > section > ul > li:nth-of-type(5) > div:nth-of-type(2) {
+  margin: 0;
+  padding-bottom: 30px;
+}
+.body > section > ul > li:nth-of-type(5) > div > h3 {
+  border-bottom: solid 7px #e5e5e5;
+  padding: 15px 0 15px 0;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.body > section > ul > li:nth-of-type(5) > div > p {
+  padding: 10px 0 10px 0;
+}
+.body > section > ul > li:nth-of-type(5) > div > h3 > span > a {
   color: #797979;
   font-size: 12px;
-  padding-left: 20px;
-} */
+  padding-left: 15px;
 
-
+}
+.body > section > ul > li:nth-of-type(5) > div > h3 > span img {
+  height: 30px;
+  vertical-align: middle;
+  padding-left: 30px;
+}
 
 .body > section > ul > li:nth-of-type(5) > div > ul > li > img {
   width: 320px;
@@ -343,11 +377,16 @@ h3 {
   height: 200px;
   margin: 10px 0;
 }
+.body > section > ul > li:nth-of-type(5) > div:last-child > ul > li > a:hover ,
+.body > section > ul > li:nth-of-type(5) > div > h3 > span a:hover{
+  opacity: 0.7;
+  transition: all 0.2s  ease;
+}
 .body > section > ul > li:nth-of-type(5) > div:last-child > ul > li p {
   color: #797979;
   font-size: 12px;
 }
-.body > section > ul > li:nth-of-type(5) > div> p:last-child {
+.body > section > ul > li:nth-of-type(5) > div:last-child > p:last-child {
   color: #797979;
   font-size: 12px;
   text-align: right;
