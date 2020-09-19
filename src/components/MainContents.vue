@@ -157,7 +157,7 @@
               <br />・Vue.Draggableを用いてリストの並び替えを実装しました。
               <br />
             </p>
-                        <p>
+            <p>
               <a href="https://github.com/takeco/my-portfolio/tree/todolist" target="blank">
                 <img src="../../public/img/github.svg" alt />
               </a>
