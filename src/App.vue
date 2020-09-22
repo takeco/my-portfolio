@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style module>
-.app {
+.app{
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
     "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
   -webkit-font-smoothing: antialiased;
